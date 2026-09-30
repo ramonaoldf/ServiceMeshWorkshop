@@ -289,14 +289,9 @@
       kubectl config use-context <context>
       ```
 
-      ##### Download Istio
 
       ```bash
-      #Download Istio binary
-      curl -L https://istio.io/downloadIstio | sh -
       
-      #Download specific version of Istio viz. 1.11.3
-      curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.11.3 TARGET_ARCH=x86_64 sh -
       
       #The istioctl client binary in the bin/ directory
       #Add the istioctl client to your path (Linux or macOS):
@@ -470,7 +465,6 @@
       
       #RatingsApi - Ratings API backend 
       
-      #Clone/Fork/Download Souerce code
       https://github.com/monojit18/mslearn-aks-workshop-ratings-api.git
       
       #CD to the director where Dockerfile exists
@@ -490,7 +484,6 @@
       
       #RatingsWeb - Ratings App Frontend
       ===================================
-      #Clone/Fork/Download Souerce code
       https://github.com/monojit18/mslearn-aks-workshop-ratings-web.git
       
       #CD to the director where Dockerfile exists
@@ -944,7 +937,6 @@
       #helm uninstall ingress-chart -n secondary
       ```
     
-    - ##### Download Linkerd
 
       ```bash
           export LINKERD2_VERSION=stable-2.10.0
